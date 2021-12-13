@@ -364,6 +364,7 @@ zero_table2 = pd.DataFrame(zero_dict2)
 
 with left_col.expander("Lihat Summary Data Tahun "+tahun):
     st.subheader(" Tabel Summary Data Tahun "+str(tahun))
+    st.write("Produksi terbesar menyatakan negara dengan produksi minyak mentah terbesar dan produksi terkecil menyatakan negara dengan produksi minyak mentah terkecil namun bukan nol")
     st.table(D_table1)
     st.subheader(" Tabel Zero Production Tahun "+str(tahun))
     st.write("Kumpulan negara dengan besar produksi minyak mentah nol pada tahun "+tahun)
@@ -372,6 +373,7 @@ with left_col.expander("Lihat Summary Data Tahun "+tahun):
 
 with right_col.expander("Lihat Summary Data Kumulatif"):
     st.subheader(" Tabel Summary Data Kumulatif")
+    st.write("Produksi terbesar menyatakan negara dengan produksi minyak mentah terbesar dan produksi terkecil menyatakan negara dengan produksi minyak mentah terkecil namun bukan nol")
     st.table(D_table2)
     st.subheader(" Tabel Zero Production Kumulatif")
     st.write("Kumpulan negara dengan besar produksi minyak mentah nol untuk keseluruhan tahun")
